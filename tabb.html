@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table</title>
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+				$(document).on("click", "#add_comment", function() {
+					var form = $("form[name='form']");
+					form.css("display","block");
+					$("#add_comment").replaceWith(form);
+				});
+				$(document).on("click", "input[name='send']", function() {
+					var comment = $("textarea[name='comment']").val ();
+					alert("Подождите идет загрузка комментариев...");
+					$("<p>" + comment + "</p>").appendTo("div#comments");
+					});
+		});
+	</script>
+</head>
+<body>
+	<header>
+		<div class="arc">
+			<p>Молдова - Европейская Страна</p>
+			<p class="under">А. Арчук</p>
+		</div>
+		<nav class="nav">
+					<a class="nav_link" href="index.html#top" title="First Page">Главная</a>
+					<a class="nav_link"  href="index.html#yak1" title="EU">ЕС</a>
+					<a class="nav_link" href="index.html#kkk" title="Republic of Moldova">Р.Молдова</a>
+					<a class="nav_link" href="tabb.html" title="table!">Таблица Стран ЕС</a>
+					<a class="nav_link"  href="#inner" title="EUI">Европейская Интеграция</a>
+					<a class="nav_link" href="index.html#foot">Контакт</a>
+					<a class="nav_link" href="#comy">Оставить Комментарий</a>
+
+		</nav>		
+	</header>
+	<div class="name"><h1>Таблица стран ЕС</h1></div>
+	<div class="tabbb">
+	<div class="a1"><table class="tabb" border="4">	
+		<tr><td>Номер</td><td>Флаг</td><td>Государство</td><td>Год Вступления</td></tr>
+		<tr><td>1</td><td><img src="aust.png"></td><td>Австрия</td><td>1995</td></tr>
+		<tr><td>2</td><td><img src="belg.png"></td><td>Бельгия</td><td>1957</td></tr>
+		<tr><td>3</td><td><img src="bulg.png"></td><td>Болгария</td><td>2007</td></tr>
+		<tr><td>4</td><td><img src="hung.png"></td><td>Венгрия</td><td>2004</td></tr>
+		<tr><td>5</td><td><img src="gree.png"></td><td>Греция</td><td>1981</td></tr>
+		<tr><td>6</td><td><img src="germ.png"></td><td>Германия</td><td>1957</td></tr>
+		<tr><td>7</td><td><img src="denm.png"></td><td>Дания</td><td>1973</td></tr>
+		<tr><td>8</td><td><img src="ital.png"></td><td>Италия</td><td>1957</td></tr>
+		<tr><td>9</td><td><img src="irel.png"></td><td>Ирландия</td><td>1973</td></tr>
+		<tr><td>10</td><td><img src="esp.png"></td><td>Испания</td><td>1986</td></tr>
+		<tr><td>11</td><td><img src="cypr.png"></td><td>Кипр</td><td>2004</td></tr>
+		<tr><td>12</td><td><img src="luks.png"></td><td>Люксембург</td><td>1957</td></tr>
+		<tr><td>13</td><td><img src="latv.png"></td><td>Латвия</td><td>2004</td></tr>
+	</table></div>
+	<div class="a2"><table class="tabb" border="4">
+		<tr><td>Номер</td><td>Флаг</td><td>Государство</td><td>Год Вступления</td></tr>
+		<tr><td>14</td><td><img src="litv.png"></td><td>Литва</td><td>2004</td></tr>
+		<tr><td>15</td><td><img src="malt.png"></td><td>Мальта</td><td>2004</td></tr>
+		<tr><td>16</td><td><img src="neth.png"></td><td>Нидерланды</td><td>1957</td></tr>
+		<tr><td>17</td><td><img src="port.png"></td><td>Португалия</td><td>1986</td></tr>
+		<tr><td>18</td><td><img src="pol.png"></td><td>Польша</td><td>2004</td></tr>
+		<tr><td>19</td><td><img src="roma.png"></td><td>Румыния</td><td>2007</td></tr>
+		<tr><td>20</td><td><img src="slov.png"></td><td>Словения</td><td>2004</td></tr>
+		<tr><td>21</td><td><img src="slovak.png"></td><td>Словакия</td><td>2004</td></tr>
+		<tr><td>22</td><td><img src="fran.png"></td><td>Франция</td><td>1957</td></tr>
+		<tr><td>23<div id="inner"></div></td><td><img src="fin.png"></td><td>Финляндия</td><td>1995</td></tr>
+		<tr><td>24</td><td><img src="croa.png"></td><td>Хорватия</td><td>2013</td></tr>
+		<tr><td>25</td><td><img src="czec.png"></td><td>Чехия</td><td>2004</td></tr>
+		<tr><td>26</td><td><img src="swed.png"></td><td>Швеция</td><td>1995</td></tr>
+		<tr><td>27</td><td><img src="eston.png"></td><td>Эстония</td><td>2004</td></tr>
+	</table>
+</div>
+	</div>
+	<div class="fin">
+		
+<div class="ft"><h2 class="ftt">Европейская интеграция</h2>
+<p>Европейская интеграция является приоритетом внутренней и внешней политики Республики Молдова. В то же время, существование функциональной рыночной экономики является одним из основных условий, которое любое государство должно выполнять для вступления в Европейский союз.</p> <p>В данном контексте, Национальный банк Молдовы, в качестве центрального банка государства и имеющий определенные компетенции, принимает активное участие во внутренних изменениях законодательного, институционального и функционального характера, призванные содействовать выполнению экономического критерия для вступления в Европейский союз, обеспечивая, таким образом, большую близость Республики Молдовы к Европейскому союзу. В пределах своих полномочий, Национальный банк Молдовы способствует гармонизации своей нормативной базы и деятельности с законодательством и лучшими практиками Евро­пейского союза.</p>
+<i><ul>"Мы оставляем за собой право и рассматриваем возможность инициировать референдум по вопросу евроинтеграции. Этот референдум, скорее всего, лучше организовать в один день с парламентскими выборами (которые намечены на 24 февраля - ред.), чтобы сэкономить деньги. Мы вернемся к этому вопросу, когда проконсультируемся по решениям Конституционного суда о возможности организации референдума во время парламентских выборов. Мы не откажемся от идеи евроинтеграции и изменения Конституции по этому вопросу. И, вне зависимости от итога голосования, а скорее всего, голосование будет провальным, мы рассматриваем возможность организовать референдум"</ul></i><p>отметил Канду.</p>
+</div>
+<div class="t">
+		<p>Отношения между Молдавией и Европейским союзом (EС) в настоящее время регулируются Европейской политикой соседства (EПС), инструментом внешней политики ЕС в отношении соседних с ним стран.</p> <p>Республика Молдова с 2014 года является асоциированным членом Европейского союза. Европейский союз развивает всё более тесные взаимоотношения с Молдавией, выходя за рамки сотрудничества, стремясь к постепенной экономической интеграции и углублению политического сотрудничества.</p> <p>ЕС открыло своё представительство в Кишинёве (столице Молдавии) и назначил 23 марта 2005 года специальным представителем Адриаана Якобовица де Сегеда по разрешению конфликта по Приднестровью. Европейская комиссия открыла новое представительство в Молдавии 6 октября 2005 года, которое возглавил Чезаре де Монтис.</p>
+<p>Ставший 23 декабря 2016 года Президентом Молдавии Игорь Додон заявил, что хотел бы, чтобы Молдавия стала членом Евразийского экономического союза. Однако проевропейски настроенный парламент IX-го созыва (2014—2019) хочет добиться членства республики в Европейском союзе.</p></div>
+<div id="comy"></div>
+<div id="comments">
+		<p>Пользователь_772 </p>
+		<p>Пользователь_348 </p>
+		<p>Пользователь_341 </p>
+	</div>
+	<form name="form" action="#" method="post" id="form" style="display:none" onsubmit="return false">
+		<textarea id="textarea" name="comment" cols="40" rows="10"></textarea>
+		<input type="submit" name="send" value="Добавить Комментарий"
+		id="done"></form>
+<a href="#" onclick="return false" id="add_comment" class="goldlink"><h3><ul>Добавить Комментарий</ul><h3></a>
+</body>
+	</div>
+	
+</html>

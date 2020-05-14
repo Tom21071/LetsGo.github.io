@@ -1,0 +1,108 @@
+
+body{
+background-image: url("bgtab.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover; 
+	font-family: 'Roboto', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+header{
+	position:fixed;
+	display: block;
+	opacity: .8;
+	width: 100%;
+	color: white;
+	height:90px;
+	background-color: white;
+	top: 0;
+	left:0;
+	right:0;
+	justify-content: space-between;
+	display: flex;
+	align-items:center;
+	pointer-events:auto;
+}
+.arc{
+	font-size:30px;
+	color:black;
+	opacity: 1;
+	margin-left: 50px;
+	margin-bottom: 18px;
+	display: block;
+}
+.under{
+	font-size: 18px;
+	color: black;
+	margin-top: -35px;
+	margin-left: 22px;
+}
+.nav{
+	margin-right: 32px;
+	font-size: 18px;
+	display:table;
+}
+.nav_link{
+	margin:0 10px;
+}
+.nav_link:hover{
+ 	color:green;
+ 	transition: 0.3s;
+ 	font-size: 22px;
+ }
+
+
+.tabbb{
+	margin: 0 auto;
+	width: 1300px;
+	font-size: 26px;
+	color: white;
+}
+.a1{
+	float: left;
+}
+.tabb{
+	width: 600px;
+	color: white;
+	border-color: white;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.name{
+	color: white;
+	font-size: 28px;
+	margin-bottom: 20px;
+	margin-left: 400px;
+	margin-top: 170px;
+}
+.fin{
+	background:rgba(255, 255, 255, 0.4);
+	width: 1300px;
+	height: 1900px;
+	margin: 0 auto;
+	font-size: 24px;
+
+}
+.t{
+	width: 1100px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 70px;
+	color: white;
+	margin-bottom: 300px;
+}
+.ft{
+	width: 1100px;
+	height: 700px;
+	margin: 0 auto;
+	color: white;
+}
+.goldlink:hover{
+	transition: 0.1s;
+	color: blue;
+	font-size:25px;
+}
